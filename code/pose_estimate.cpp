@@ -65,7 +65,7 @@ void Estimator::close()
 }
 
 
-void Estimator::detect(TransformData & out_transform, float * out_expression)
+void Estimator::detect(TransformData& out_transform, float* out_expression)
 {
 	_capture >> frame;
 	if (frame.empty())
@@ -241,7 +241,7 @@ void Estimator::pnp_solve(TransformData& out_transform)
 }
 
 
-void Estimator::landmark_to_blendshapes(float * out_expression)
+void Estimator::landmark_to_blendshapes(float* out_expression)
 {
 	// Construct line image for expression detection
 	cv::Mat bs_mat = get_line_face();
