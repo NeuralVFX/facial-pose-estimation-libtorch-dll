@@ -30,7 +30,16 @@ This blog post describes the whole project: [AR Facial Pose Estimation](http://n
 ## Project Setup
 - Clone this repo: `git clone https://github.com/NeuralVFX/facial-pose-estimation-libtorch-dll.git`
 - Open the `code` directory
-- Open `pose_estimate.h` and replace the `".ptc"` file paths to match the paths on your system
+- Open `pose_estimate.h` and replace the `".ptc"`, `".caffemodel"` and `"".prototxt` file paths to match the location you will place them on your system:
+```
+	/** File paths for models */
+	const string face_detect_config_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/deploy.prototxt";
+	const string face_detect_weight_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/res10_300x300_ssd_iter_140000_fp16.caffemodel";
+	const string blend_shape_detect_mdl_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/bs_17.ptc";
+	const string landmark_detect_mdl_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/fp_hrnet.ptc";
+	const string blend_shape_mdl_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/bs.ptc";
+```
+
 - Open `build/CMakeLists.txt` and replace the directories `Torch_DIR`, `OpenCV_DIR`, `OpenCV_INC_DIR` and `OpenCV_LIB_DIR`
 - Run these commands to build the project(replace `DCMAKE_PREFIX_PATH` with your libtorch install directory):
 ```
