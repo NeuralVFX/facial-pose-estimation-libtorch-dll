@@ -1,5 +1,5 @@
 ![](https://github.com/NeuralVFX/facial-pose-estimation-unity/blob/master/examples/example_celeb_c.gif)
-# Facial-Pose-Estimation-Libtorch-Dll
+# Facial-Pose-Estimation-Libtorch-DLL
 
 This repository is a CMAKE Project, it contains a `C++` implimentation of Realtime Facial and Headpose Estimation using `OpenCV` and a `CNN` trained in `Pytorch`.
 
