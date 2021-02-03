@@ -12,10 +12,10 @@ This is one of three repositories which together form a larger project, these ar
 This blog post describes the whole project: [AR Facial Pose Estimation](http://neuralvfx.com/augmented-reality/ar-facial-pose-estimation/)
 
 ## Extra Info
-- The output of the Visual Studio Project is a `DLL designed to work with an [unreal plugin](https://github.com/NeuralVFX/facial-pose-estimation-libtorch-unreal)
+- The output of the Visual Studio Project is a `DLL` designed to work with my [unreal plugin](https://github.com/NeuralVFX/facial-pose-estimation-libtorch-unreal)
 - The landmark detection network used is based on [HRNet](https://github.com/HRNet/HRNet-Facial-Landmark-Detection), yet modified to produce un-quantized results.
 - The landmarks are converted into a line image using OpenCV, and then fed to my [pose esimation](https://github.com/NeuralVFX/facial-pose-estimation-pytorch-v2) model.
-- Both of these models are traced via JIT, and executed using LibTorch in C++.
+- Both of these models are traced via `JIT`, and executed using `LibTorch` in `C++`.
 - The `DLL` outputs the `Transform Matrix`, a set of `Blendshape Values`, and the pixels of the image.
 
 ## Requirements:
