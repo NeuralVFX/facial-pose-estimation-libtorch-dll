@@ -37,19 +37,3 @@ cmake --build . --config Release
 - This should generate a Visual Studio Project and a file called `Release/facial-pose-estimation-libtorch.dll`
 - Copy this file wherever you need!
 
-## PyTorch/Jit Trace
-- If you are interested to modify or re-export the Boids model, Run this [Jupyter Notebook](libtorch/BoidsJitExport.ipynb).
-
-## Extra Info
-- The output of the Visual Studio Project is a `DLL`
-- The `DLL` outputs the `Transform Matrix`, a set of `Blendshape Values`, and the pixels of the image
-- An example of using this `DLL` with `Unreal` can be found in this project: [facial-pose-estimation-libtorch-unreal](https://github.com/NeuralVFX/facial-pose-estimation-libtorch-unreal)
-- The `Neural Net` used by the project can be found here: [facial-pose-estimation-pytorch-v2](https://github.com/NeuralVFX/facial-pose-estimation-pytorch-v2)
-
-## Estimation Pipeline Diagram
-![](examples/pipeline_c.png)
-
-
-
-
-
