@@ -19,7 +19,7 @@ This blog post describes the whole project: [AR Facial Pose Estimation](http://n
 - The `DLL` outputs the `Transform Matrix`, a set of `Blendshape Values`, and the pixels of the image.
 
 ## Estimation Pipeline Diagram
-![](https://github.com/NeuralVFX/facial-pose-estimation-opencv/blob/master/examples/pipeline_c.png)
+![](examples/diagram.png)
 
 ## Requirements:
 - CMake
