@@ -6,8 +6,8 @@ This repository is a CMAKE Project, it contains a `C++` implimentation of Realti
 ## About
 This is one of three repositories which together form a larger project, these are the three repositories:
 - [facial-pose-estimation-pytorch-v2](https://github.com/NeuralVFX/facial-pose-estimation-pytorch-v2)
-- [facial-pose-estimation-opencv](https://github.com/NeuralVFX/facial-pose-estimation-libtorch-dll) - You are here.
-- [facial-pose-estimation-unity](https://github.com/NeuralVFX/facial-pose-estimation-libtorch-unreal)
+- [facial-pose-estimation-libtorch-dll](https://github.com/NeuralVFX/facial-pose-estimation-libtorch-dll) - You are here.
+- [facial-pose-estimation-libtorch-unreal](https://github.com/NeuralVFX/facial-pose-estimation-libtorch-unreal)
 
 This blog post describes the whole project: [AR Facial Pose Estimation](http://neuralvfx.com/augmented-reality/ar-facial-pose-estimation/)
 
