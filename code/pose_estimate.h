@@ -36,11 +36,11 @@ public:
 	cv::VideoCapture _capture;
 
 	/** File paths for models */
-	const string face_detect_config_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/FaceTrackerTest/deploy.prototxt";
+	const string face_detect_config_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/deploy.prototxt";
 	const string face_detect_weight_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/res10_300x300_ssd_iter_140000_fp16.caffemodel";
-	const string blend_shape_detect_mdl_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/bs_17.pt";
-	const string landmark_detect_mdl_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll//fp_hrnet.jit";
-	const string blend_shape_mdl_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/bs.jit";
+	const string blend_shape_detect_mdl_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/bs_17.ptc";
+	const string landmark_detect_mdl_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/fp_hrnet.ptc";
+	const string blend_shape_mdl_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/bs.ptc";
 
 	/** Neural networks */
 	cv::dnn::Net box_detector;
@@ -71,7 +71,7 @@ public:
 	bool lock_eyes_nose;
 
 	/** 
-     * Storage for reusable variables
+	 * Storage for reusable variables
 	 */
 
 	/** Stream image storage */
