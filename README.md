@@ -35,9 +35,9 @@ This blog post describes the whole project: [AR Facial Pose Estimation](http://n
 	/** File paths for models */
 	const string face_detect_config_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/deploy.prototxt";
 	const string face_detect_weight_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/res10_300x300_ssd_iter_140000_fp16.caffemodel";
-	const string blend_shape_detect_mdl_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/bs_17.ptc";
-	const string landmark_detect_mdl_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/fp_hrnet.ptc";
-	const string blend_shape_mdl_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/bs.ptc";
+	const string blend_shape_detect_mdl_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/bs_detect.ptc";
+	const string landmark_detect_mdl_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/landmark_detect.ptc";
+	const string blend_shape_mdl_path = "C:/git-clone-tests/facial-pose-estimation-libtorch-dll/bs_model.ptc";
 ```
 
 - Open `build/CMakeLists.txt` and replace the directories `Torch_DIR`, `OpenCV_DIR`, `OpenCV_INC_DIR` and `OpenCV_LIB_DIR`
