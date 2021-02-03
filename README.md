@@ -37,3 +37,7 @@ cmake --build . --config Release
 - This should generate a Visual Studio Project and a file called `Release/facial-pose-estimation-libtorch.dll`
 - Copy this file wherever you need!
 
+## Estimation Pipeline Diagram
+![](https://github.com/NeuralVFX/facial-pose-estimation-opencv/blob/master/examples/pipeline_c.png)
+
+
