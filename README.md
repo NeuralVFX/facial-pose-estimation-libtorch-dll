@@ -18,6 +18,9 @@ This blog post describes the whole project: [AR Facial Pose Estimation](http://n
 - Both of these models are traced via `JIT`, and executed using `LibTorch` in `C++`.
 - The `DLL` outputs the `Transform Matrix`, a set of `Blendshape Values`, and the pixels of the image.
 
+## Estimation Pipeline Diagram
+![](https://github.com/NeuralVFX/facial-pose-estimation-opencv/blob/master/examples/pipeline_c.png)
+
 ## Requirements:
 - CMake
 - Visual Studio
@@ -36,8 +39,4 @@ cmake --build . --config Release
 ```
 - This should generate a Visual Studio Project and a file called `Release/facial-pose-estimation-libtorch.dll`
 - Copy this file wherever you need!
-
-## Estimation Pipeline Diagram
-![](https://github.com/NeuralVFX/facial-pose-estimation-opencv/blob/master/examples/pipeline_c.png)
-
 
