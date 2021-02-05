@@ -142,6 +142,7 @@ public:
 	* Initiate OpenCV camera stream and Neural Networks.
 	* @param out_camera_width - Width which OpenCV used for camera stream.
 	* @param out_camera_height - Height which OpenCV used for camera stream.
+	* @param detectRatio - ratio to scale image by for initial face detection
 	* @param cam_id - Which camera id OpenCV should try to use.
 	* @param in_fov_zoom - Zoom amount for pinhole camera, to match Unreal.
 	* @param draw - Wheher or not to draw technical indicators over frame.
